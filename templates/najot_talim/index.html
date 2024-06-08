@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="{% static 'najot_talim/css/base.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="post">
+                <h2>First Blog Post</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a semper sapien. Suspendisse potenti.</p>
+            </section>
+            <section class="post">
+                <h2>Second Blog Post</h2>
+                <p>Phasellus aliquet velit et elit efficitur, vel fringilla magna auctor. Morbi tincidunt dictum lectus.</p>
+            </section>
+            <section class="post">
+                <h2>Third Blog Post</h2>
+                <p>Integer non orci non risus convallis volutpat. Curabitur ullamcorper justo ac eros pharetra, et vulputate risus lacinia.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
